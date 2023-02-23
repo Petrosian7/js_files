@@ -288,7 +288,7 @@
 // const el = document.getElementById("time");
 const date = new Date();
 
-const date1 = date.toLocaleDateString("en-US", "option");
+const date1 = date.toLocaleDateString("en-US");
 const arr = ["time", "time1", "time2", "time3"];
 for(let i = 0; i < arr.length; i++) {
 	const el = document.getElementById(arr[i]);
